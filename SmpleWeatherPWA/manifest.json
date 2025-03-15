@@ -1,0 +1,16 @@
+{
+    "name": "Simple Weather PWA",
+    "short_name": "Weather",
+    "description": "A simple Weather PWA that works offline.",
+    "start_url": "./",
+    "background_color": "lightblue",
+    "theme_color": "white",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
