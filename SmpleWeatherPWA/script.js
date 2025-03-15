@@ -248,9 +248,6 @@ function getLastSavedCity() {
 }
 
 
-const encodedKey = "NjBlNWQxZjMxMTFlZTdmNjc2ZDM3OGU0MGU3ZGVmOGM=";  //temporary security any developer can debug it 
-// it is just for practices
-
 
 async function Refresh() {
     const cityData = await getLastSavedCity(); // Wait for city data
@@ -274,7 +271,7 @@ function formatDateTime() {
     return `${date} ${time}`;
 }   
 async function getWeather(city) {
-    const API_KEY = "60e5d1f3111ee7f676d378e40e7def8c";
+    const API_KEY = "ApiKey";//enter  your api
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
     console.log(url);
 
