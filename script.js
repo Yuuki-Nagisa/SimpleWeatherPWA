@@ -271,8 +271,8 @@ function formatDateTime() {
     return `${date} ${time}`;
 }   
 async function getWeather(city) {
-    const API_KEY = "ApiKey";//enter  your api
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${60e5d1f3111ee7f676d378e40e7def8c
+}&units=metric`;
     console.log(url);
 
     try {
